@@ -1,5 +1,4 @@
 -- 1. ADIM: TABLO OLUŞTURMA
--- ============================================================
 DROP TABLE IF EXISTS employee;
 
 CREATE TABLE employee (
@@ -11,7 +10,6 @@ CREATE TABLE employee (
 
 
 -- 2. ADIM: MOCKAROO İLE 50 ADET VERİ EKLEME
--- ============================================================
 INSERT INTO employee (id, name, birthday, email) VALUES
 (1,  'Aarika',     '1985-03-12', 'aarika0@harvard.edu'),
 (2,  'Bartholomew','1990-07-23', 'bgill1@google.com'),
